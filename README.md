@@ -5,7 +5,9 @@
 ### Постановка задачи ###
 
 Создать приложение-задачник.
+
 Задачи состоят из:
+
 - имени пользователя;
 - е-mail;
 - текста задачи;
@@ -28,17 +30,25 @@
 ### How do I get set up? ###
 
 Для разворачивания теста необходимо:
+
 1. PHP7, apache, postgresql.
+
 2. Развернуть новую базу из скрипта db.sql
+
 3. Залить проект так чтобы SERVER_ROOT был на папку www
+
 4. Настроить генерацию assets/styles.less assets/variables.less в www/assets/css
+
 5. Дать права на запись www-серверу в www/uploads
+
 6. Создать conf/main.php (см пример)
+
 7. Профит
 
 ### Готовые ссылки ###
 
 https://bitbucket.org/mapt34/beejeetest
+
 http://beejee.ibs1c.ru/
 
 ### Трудозатраты ###
