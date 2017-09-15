@@ -22,7 +22,7 @@ class DatabaseResult
      *
      * @param mixed $res
      */
-    public function __construct(mixed $res)
+    public function __construct($res)
     {
         $this->result = $res;
     }
